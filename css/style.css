@@ -1,0 +1,112 @@
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(../images/bg-desktop.svg);
+    background-size: cover;
+    padding: 50px;
+    position: relative;
+}
+
+.main_content{
+    padding-top: 70px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.main_img >img{
+    width: 100%;
+    height: 100%;
+}
+
+.description{
+    padding: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.description h3{
+    font-weight: 600;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+
+}
+
+.huddle_description{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: white;
+    line-height: 25px;
+}
+
+.register_btn{
+    margin-top: 20px;
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    border: 1px solid white;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.register_btn p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: hsl(257, 40%, 49%);
+}
+
+.register_btn:hover{
+    border: 1px solid  hsl(300, 69%, 71%);    ;
+    cursor: pointer;
+    background-color: hsl(300, 69%, 71%);
+    transition: 0.5s;
+}
+
+.register_btn:hover p{
+    color: white;
+    transition: 0.5s;
+}
+
+.contacts{
+    width: 200px;
+    position: absolute;
+    top: 90%;
+    left: 88%;
+}
+
+.social_links{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+i:hover{
+    color: hsl(300, 69%, 71%);
+
+}
+
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
